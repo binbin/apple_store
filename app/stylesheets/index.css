@@ -1,4 +1,4 @@
-/* line 5, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,360 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/* line 6, ../sass/index.scss */
+body {
+  font: 16px/1.5 'XinGothic-SinaWeibo','Microsoft Yahei','helvetica','arial';
+  -webkit-text-size-adjust: none;
+  color: #1a1a1a;
+  background: #f8f8f8;
+  -webkit-text-size-adjust: none;
+  min-width: 320px;
+}
+
+/*
+header{
+	color:#fff;
+	height:45px;
+	background:rgb(96, 125, 139);
+	@include box-shadow(rgb(170, 170, 170) 0px 0px 0px);
+	position: relative;
+	font-size: 18px;
+	.text{
+	   position: absolute;
+	   width:100%;
+	   left:0;
+	   top:50%;
+	   margin-top:-12px;
+	   font-size:18px;
+       text-align: center;
+       display: inline-block;
+	}
+	.fa-chevron-left{
+	  font-size: 24px;
+	  position: absolute;
+	  left: 0;
+	  top: 50%;
+	  margin-top: -12px;
+	}
+	.icon-back{
+	  width: 60px;
+	 position:absolute;
+	 top:0;
+	 left:6px;
+	 height: 45px;
+     line-height: 45px;
+     span{
+        font-size: 16px;
+	    position: absolute;
+	    display: inline-block;
+	    left: 0;
+	    top: 0;
+	    width: 40px;
+	    margin-left: 24px;
+	    margin-top: -2px;
+     }
+	}
+}
+*/
+/*
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('http://cdn.bootcss.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot');
+  src: url('http://cdn.bootcss.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('http://cdn.bootcss.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('http://cdn.bootcss.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('http://cdn.bootcss.com/bootstrap/3.2.0/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  font-family: 'Glyphicons Halflings';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-film:before {
+  content: "\e009";
+}
+.glyphicon-qrcode:before {
+  content: "\e039";
+}
+.glyphicon-list:before {
+  content: "\e056";
+}
+.glyphicon-picture:before {
+  content: "\e060";
+}
+.glyphicon-chevron-left:before {
+  content: "\e079";
+}
+.glyphicon-calendar:before {
+  content: "\e109";
+}
+*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../resources/font-awesome/fonts/fontawesome-webfont.eot");
+  src: url("../resources/font-awesome/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../resources/font-awesome/fonts/fontawesome-webfont.woff") format("woff"), url("../resources/font-awesome/fonts/fontawesome-webfont.ttf") format("truetype"), url("../resources/font-awesome/fonts/fontawesome-webfont.svg#glyphicons_halflingsregular") format("svg");
+}
+/* line 96, ../sass/index.scss */
+.glyphicon {
+  /*font-family: 'FontAwesome';*/
+  font-size: 24px;
+  color: #fff;
+  /*font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+}
+
+/* line 108, ../sass/index.scss */
+header, footer {
+  width: 100%;
+  height: 50px;
+}
+
+/* line 112, ../sass/index.scss */
+header .fixed, footer .fixed {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+/* line 118, ../sass/index.scss */
+header .fixed .wrap, footer .fixed .wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 125, ../sass/index.scss */
+header .fixed .wrap.float h1, footer .fixed .wrap.float h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 135, ../sass/index.scss */
+header .fixed .wrap.float .glyphicon,
+footer .fixed .wrap.float .glyphicon {
+  display: inline-block;
+  color: #fff;
+  margin: 12px 10px;
+  position: relative;
+}
+
+/* line 142, ../sass/index.scss */
+header .fixed .wrap.flex .glyphicon,
+footer .fixed .wrap.flex .glyphicon {
+  color: #444444;
+}
+
+/* line 146, ../sass/index.scss */
+header .fixed .wrap.float .glyphicon-text,
+footer .fixed .wrap.float .glyphicon-text {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  width: 100%;
+  margin-top: -9px;
+  min-width: 40px;
+}
+
+/* line 157, ../sass/index.scss */
+header .fixed .wrap.float .left-icon,
+footer .fixed .wrap.float .left-icon {
+  float: left;
+}
+
+/* line 161, ../sass/index.scss */
+header .fixed .wrap.float .right-icon,
+footer .fixed .wrap.float .right-icon {
+  float: right;
+}
+
+/* line 165, ../sass/index.scss */
+header .fixed .wrap.float:before,
+footer .fixed .wrap.float:before,
+header .fixed .wrap.float:after,
+footer .fixed .wrap.float:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 174, ../sass/index.scss */
+header .fixed .wrap.float:after,
+footer .fixed .wrap.float:after {
+  clear: both;
+}
+
+/* line 178, ../sass/index.scss */
+header .fixed .wrap.flex,
+footer .fixed .wrap.flex {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+}
+
+/* line 188, ../sass/index.scss */
+header .fixed .wrap.flex > a,
+footer .fixed .wrap.flex > a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1 1 0;
+  -moz-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  text-align: center;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+header .fixed .wrap.flex > a:active, header .fixed .wrap.flex > a:focus,
+footer .fixed .wrap.flex > a:active,
+footer .fixed .wrap.flex > a:focus {
+  outline: none;
+}
+
+/* line 203, ../sass/index.scss */
+header .fixed .wrap.flex > a .glyphicon,
+footer .fixed .wrap.flex > a .glyphicon {
+  vertical-align: -7px;
+}
+
+/* line 207, ../sass/index.scss */
+footer .fixed .wrap.flex > a .text {
+  font-size: 14px;
+  display: block;
+}
+
+/* line 211, ../sass/index.scss */
+header .fixed {
+  top: 0;
+  background-color: #607d8b;
+  box-shadow: #aaaaaa 0px 0px 0px;
+}
+
+/* line 216, ../sass/index.scss */
+footer .fixed {
+  bottom: 0;
+  background: #f8f8f8;
+  border-top: 1px solid #bbbbbb;
+  -moz-box-shadow: #aaaaaa 0px 0px 0px;
+  -webkit-box-shadow: #aaaaaa 0px 0px 0px;
+  box-shadow: #aaaaaa 0px 0px 0px;
+}
+
+/* line 225, ../sass/index.scss */
+header, footer {
+  position: relative;
+  z-index: 99;
+}
+
+/* line 229, ../sass/index.scss */
+.m-flex {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+}
+
+/* line 238, ../sass/index.scss */
+.m-flex > .m-cell {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  /* width:0; */
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  /* flex-basis:0; */
+  max-width: 100%;
+  display: block;
+  padding: 0 !important;
+  position: relative;
+}
+
+/* line 252, ../sass/index.scss */
+#index .item {
+  padding: 5px;
+}
+/* line 254, ../sass/index.scss */
+#index .item a {
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  line-height: 0;
+}
+/* line 260, ../sass/index.scss */
+#index .item a img {
+  width: 100%;
+  height: 100%;
 }
