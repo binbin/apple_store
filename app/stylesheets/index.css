@@ -361,10 +361,14 @@ header, footer {
 }
 
 /* line 252, ../sass/index.scss */
+#index .items {
+  margin: 10px;
+}
+/* line 255, ../sass/index.scss */
 #index .item {
   padding: 5px;
 }
-/* line 254, ../sass/index.scss */
+/* line 257, ../sass/index.scss */
 #index .item a {
   display: block;
   background-size: contain;
@@ -372,7 +376,7 @@ header, footer {
   box-sizing: border-box;
   line-height: 0;
 }
-/* line 260, ../sass/index.scss */
+/* line 263, ../sass/index.scss */
 #index .item a img {
   width: 100%;
   height: 100%;

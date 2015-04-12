@@ -249,6 +249,9 @@ header,footer{
 	position:relative
 }
 #index{
+  .items{
+    margin:10px;
+  }
 	.item{
       padding:5px;
       a{
