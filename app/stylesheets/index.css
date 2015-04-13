@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 5, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,7 +68,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font: 16px/1.5 'XinGothic-SinaWeibo','Microsoft Yahei','helvetica','arial';
   -webkit-text-size-adjust: none;
+  font-family: "Apple TP","Helvetica Neue","Helvetica","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Arial","Verdana","sans-serif";
   color: #1a1a1a;
+  color: #444;
   background: #f8f8f8;
   -webkit-text-size-adjust: none;
   min-width: 320px;
@@ -157,7 +160,7 @@ header{
   src: url("../resources/font-awesome/fonts/fontawesome-webfont.eot");
   src: url("../resources/font-awesome/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../resources/font-awesome/fonts/fontawesome-webfont.woff") format("woff"), url("../resources/font-awesome/fonts/fontawesome-webfont.ttf") format("truetype"), url("../resources/font-awesome/fonts/fontawesome-webfont.svg#glyphicons_halflingsregular") format("svg");
 }
-/* line 96, ../sass/index.scss */
+/* line 100, ../sass/index.scss */
 .glyphicon {
   /*font-family: 'FontAwesome';*/
   font-size: 24px;
@@ -169,13 +172,13 @@ header{
   -moz-osx-font-smoothing: grayscale;*/
 }
 
-/* line 108, ../sass/index.scss */
+/* line 112, ../sass/index.scss */
 header, footer {
   width: 100%;
   height: 50px;
 }
 
-/* line 112, ../sass/index.scss */
+/* line 116, ../sass/index.scss */
 header .fixed, footer .fixed {
   position: fixed;
   left: 0;
@@ -183,7 +186,7 @@ header .fixed, footer .fixed {
   height: 50px;
 }
 
-/* line 118, ../sass/index.scss */
+/* line 122, ../sass/index.scss */
 header .fixed .wrap, footer .fixed .wrap {
   position: absolute;
   top: 0;
@@ -192,7 +195,7 @@ header .fixed .wrap, footer .fixed .wrap {
   height: 100%;
 }
 
-/* line 125, ../sass/index.scss */
+/* line 129, ../sass/index.scss */
 header .fixed .wrap.float h1, footer .fixed .wrap.float h1 {
   position: absolute;
   top: 0;
@@ -204,7 +207,7 @@ header .fixed .wrap.float h1, footer .fixed .wrap.float h1 {
   text-align: center;
 }
 
-/* line 135, ../sass/index.scss */
+/* line 139, ../sass/index.scss */
 header .fixed .wrap.float .glyphicon,
 footer .fixed .wrap.float .glyphicon {
   display: inline-block;
@@ -213,13 +216,13 @@ footer .fixed .wrap.float .glyphicon {
   position: relative;
 }
 
-/* line 142, ../sass/index.scss */
+/* line 146, ../sass/index.scss */
 header .fixed .wrap.flex .glyphicon,
 footer .fixed .wrap.flex .glyphicon {
   color: #444444;
 }
 
-/* line 146, ../sass/index.scss */
+/* line 150, ../sass/index.scss */
 header .fixed .wrap.float .glyphicon-text,
 footer .fixed .wrap.float .glyphicon-text {
   display: inline-block;
@@ -232,19 +235,19 @@ footer .fixed .wrap.float .glyphicon-text {
   min-width: 40px;
 }
 
-/* line 157, ../sass/index.scss */
+/* line 161, ../sass/index.scss */
 header .fixed .wrap.float .left-icon,
 footer .fixed .wrap.float .left-icon {
   float: left;
 }
 
-/* line 161, ../sass/index.scss */
+/* line 165, ../sass/index.scss */
 header .fixed .wrap.float .right-icon,
 footer .fixed .wrap.float .right-icon {
   float: right;
 }
 
-/* line 165, ../sass/index.scss */
+/* line 169, ../sass/index.scss */
 header .fixed .wrap.float:before,
 footer .fixed .wrap.float:before,
 header .fixed .wrap.float:after,
@@ -255,13 +258,13 @@ footer .fixed .wrap.float:after {
   /* 2 */
 }
 
-/* line 174, ../sass/index.scss */
+/* line 178, ../sass/index.scss */
 header .fixed .wrap.float:after,
 footer .fixed .wrap.float:after {
   clear: both;
 }
 
-/* line 178, ../sass/index.scss */
+/* line 182, ../sass/index.scss */
 header .fixed .wrap.flex,
 footer .fixed .wrap.flex {
   display: -moz-box;
@@ -273,7 +276,7 @@ footer .fixed .wrap.flex {
   display: flex;
 }
 
-/* line 188, ../sass/index.scss */
+/* line 192, ../sass/index.scss */
 header .fixed .wrap.flex > a,
 footer .fixed .wrap.flex > a {
   -webkit-box-sizing: border-box;
@@ -298,26 +301,26 @@ footer .fixed .wrap.flex > a:focus {
   outline: none;
 }
 
-/* line 203, ../sass/index.scss */
+/* line 207, ../sass/index.scss */
 header .fixed .wrap.flex > a .glyphicon,
 footer .fixed .wrap.flex > a .glyphicon {
   vertical-align: -7px;
 }
 
-/* line 207, ../sass/index.scss */
+/* line 211, ../sass/index.scss */
 footer .fixed .wrap.flex > a .text {
   font-size: 14px;
   display: block;
 }
 
-/* line 211, ../sass/index.scss */
+/* line 215, ../sass/index.scss */
 header .fixed {
   top: 0;
   background-color: #607d8b;
   box-shadow: #aaaaaa 0px 0px 0px;
 }
 
-/* line 216, ../sass/index.scss */
+/* line 220, ../sass/index.scss */
 footer .fixed {
   bottom: 0;
   background: #f8f8f8;
@@ -327,13 +330,13 @@ footer .fixed {
   box-shadow: #aaaaaa 0px 0px 0px;
 }
 
-/* line 225, ../sass/index.scss */
+/* line 229, ../sass/index.scss */
 header, footer {
   position: relative;
   z-index: 99;
 }
 
-/* line 229, ../sass/index.scss */
+/* line 233, ../sass/index.scss */
 .m-flex {
   display: -moz-box;
   display: -webkit-box;
@@ -344,7 +347,7 @@ header, footer {
   display: flex;
 }
 
-/* line 238, ../sass/index.scss */
+/* line 242, ../sass/index.scss */
 .m-flex > .m-cell {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -360,15 +363,30 @@ header, footer {
   position: relative;
 }
 
-/* line 252, ../sass/index.scss */
+/* line 255, ../sass/index.scss */
+.img-cover {
+  position: relative;
+  padding-top: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 261, ../sass/index.scss */
+.img-cover img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* line 264, ../sass/index.scss */
 #index .items {
   margin: 10px;
 }
-/* line 255, ../sass/index.scss */
+/* line 267, ../sass/index.scss */
 #index .item {
   padding: 5px;
 }
-/* line 257, ../sass/index.scss */
+/* line 269, ../sass/index.scss */
 #index .item a {
   display: block;
   background-size: contain;
@@ -376,8 +394,40 @@ header, footer {
   box-sizing: border-box;
   line-height: 0;
 }
-/* line 263, ../sass/index.scss */
+/* line 275, ../sass/index.scss */
 #index .item a img {
   width: 100%;
   height: 100%;
+}
+
+/* line 285, ../sass/index.scss */
+#category .items {
+  margin: 10px;
+}
+/* line 289, ../sass/index.scss */
+#category .desc h1 {
+  text-align: center;
+  font-size: 36px;
+}
+/* line 295, ../sass/index.scss */
+#category .desc h2 {
+  text-align: center;
+  font-size: 20px;
+}
+/* line 301, ../sass/index.scss */
+#category .desc h2.price {
+  color: #08c;
+}
+/* line 305, ../sass/index.scss */
+#category .desc .p-img-cover img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+/* line 312, ../sass/index.scss */
+#category ul li a {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
