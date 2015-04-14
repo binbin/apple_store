@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 5, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,45 +21,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -294,7 +294,7 @@ footer .fixed .wrap.flex > a {
   text-decoration: inherit;
   cursor: inherit;
 }
-/* line 6, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_unstyled-link.scss */
+/* line 6, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
 header .fixed .wrap.flex > a:active, header .fixed .wrap.flex > a:focus,
 footer .fixed .wrap.flex > a:active,
 footer .fixed .wrap.flex > a:focus {
@@ -487,14 +487,15 @@ header, footer {
 /* line 360, ../sass/index.scss */
 #category .desc .p-img-cover {
   text-align: center;
+  background: #fff;
 }
-/* line 362, ../sass/index.scss */
+/* line 363, ../sass/index.scss */
 #category .desc .p-img-cover img {
   max-width: 100%;
   height: auto;
   width: auto\9;
 }
-/* line 369, ../sass/index.scss */
+/* line 370, ../sass/index.scss */
 #category ul li a {
   display: block;
   background: #fff;
@@ -505,7 +506,7 @@ header, footer {
     bottom:5px;
    }*/
 }
-/* line 378, ../sass/index.scss */
+/* line 379, ../sass/index.scss */
 #category ul li a .left {
   width: 90px;
   height: 90px;
@@ -513,12 +514,12 @@ header, footer {
   padding-left: 10px;
   padding-top: 10px;
 }
-/* line 386, ../sass/index.scss */
+/* line 387, ../sass/index.scss */
 #category ul li a .left i {
   height: 80px;
   width: 80px;
 }
-/* line 390, ../sass/index.scss */
+/* line 391, ../sass/index.scss */
 #category ul li a .left i.iPhone6 {
   background: url("../images/icon-iPhone6.png") no-repeat scroll 0 0 transparent;
   display: inline-block;
@@ -527,13 +528,40 @@ header, footer {
   *zoom: 1;
   *display: inline;
 }
-/* line 395, ../sass/index.scss */
+/* line 396, ../sass/index.scss */
 #category ul li a .right {
   margin-left: 100px;
   height: 99px;
   border-bottom: 1px solid #f8f8f8;
+  /*>div{
+   width:100%;
+  }*/
 }
-/* line 399, ../sass/index.scss */
-#category ul li a .right > div {
+/* line 403, ../sass/index.scss */
+#category ul li a .right .text {
+  margin-right: 50px;
+  /* @include inline-block;*/
+  overflow: hidden;
+  font-size: 20px;
+  color: #444;
+}
+/* line 409, ../sass/index.scss */
+#category ul li a .right .text > div {
+  height: 99px;
+}
+/* line 411, ../sass/index.scss */
+#category ul li a .right .text > div > div {
   width: 100%;
+}
+/* line 416, ../sass/index.scss */
+#category ul li a .right .more {
+  width: 50px;
+  float: right;
+  /* @include inline-block;*/
+  font-size: 30px;
+  color: #444;
+}
+/* line 422, ../sass/index.scss */
+#category ul li a .right .more > div {
+  height: 99px;
 }

@@ -359,6 +359,7 @@ header,footer{
      }
      .p-img-cover{
        text-align: center;
+       background:#fff;
        img{
          max-width: 100%;
          height: auto;
@@ -396,9 +397,32 @@ header,footer{
       margin-left:100px;
       height:99px;
       border-bottom:1px solid #f8f8f8;
-      >div{
+      /*>div{
        width:100%;
-      }
+      }*/
+      .text{
+          margin-right:50px;
+         /* @include inline-block;*/
+          overflow: hidden;
+          font-size: 20px;
+          color:#444;
+          >div{
+          height:99px;
+            >div{
+              width: 100%;
+            }
+          }
+       }
+       .more{
+         width:50px;
+         float:right;
+        /* @include inline-block;*/
+         font-size: 30px;
+          color:#444;
+          >div{
+          height:99px;
+          }
+       }
     }
   }
 }
