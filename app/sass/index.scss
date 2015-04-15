@@ -308,13 +308,13 @@ header,footer{
   line-height: 32px;
 }
 
-.img-cover{
+.square-img-cover{
   position: relative; 
   padding-top: 100%; 
   height: 0; 
   overflow: hidden;
 }
-.img-cover img{position: absolute; top: 0; width: 100%;}
+.square-img-cover img{position: absolute; top: 0; width: 100%;}
 
 #index{
   .items{
@@ -427,5 +427,91 @@ header,footer{
   }
 }
 #product{
-  
+  .img-box{
+    text-align:center;
+    padding:20px;
+    img{
+      max-width:100%;
+      width:100%;
+    }
+  }
+  .desc-content{
+    padding:{
+      top:50px;
+    }
+    h1{
+      font:{
+        size:18px;
+        weight:bold;
+      }
+    }
+    h2{
+      font:{
+       size:16px;
+       weight:bold;
+      }
+    }
+    h3{
+      font:{
+       size:16px;
+       weight:bold;
+      }
+      color:#777;
+    }
+    h3.send{
+      color:rgb(251,165,28);
+    }
+  }
+  .items{
+    background:#fff;
+    .item{
+     padding:{
+      left:20px;
+      right:20px;
+      top:12px;
+      bottom:12px;
+     }
+     >h2{
+       font:{
+         size:16px;
+         weight:bold;
+       }
+       height:30px;
+       line-height:30px;
+     }
+     .squre-left{
+       padding:{
+         right:10px;
+       }
+     }
+     .squre-right{
+       padding:{
+         left:10px;
+       }
+     }
+     .squre-middle{
+       padding:{
+         left:10px;
+         right:10px;
+       }
+     }
+     .squre{
+       border:1px solid #d6d6d6;
+       @include border-radius(5px);
+       padding: 12px 6px;
+       h1,h2{
+        text-align:center;
+       }
+       h1{
+         font-size:16px;
+       }
+       h2{
+         font-size:14px;
+       }
+     }
+     .checked{
+         border-color: #08c;
+     }
+    }
+  }
 }
