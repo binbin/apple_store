@@ -515,3 +515,72 @@ header,footer{
     }
   }
 }
+#cart{
+  .items{}
+  .items .item{
+     background:#fff;
+     border-top:1px solid #bbb;
+     margin-top:36px;
+     overflow: hidden;
+     .s_left{
+       width:120px;
+       float:left;
+       .img_box{
+        padding:10px;
+        text-align:center;
+        img{
+         max-width:100%;
+        }
+       }
+     }
+     .s_right{
+       overflow: hidden;
+       padding:{
+        top:10px;
+       }
+       margin-left:120px;
+       .c_right{
+         float:right;
+         width:110px;
+         padding:{
+           right:10px;
+         }
+         h2{
+          font:{
+            size:18px;
+            weight:bold;
+          }
+          text-align:right;
+         }
+         a{
+          float:right;
+          @include unstyled-link;
+          color:#aaa;
+          font:{
+            size:24px;
+            weight:bold;
+          }
+          margin-top: 24px;
+         }
+       }
+       .c_left{
+         margin-right:110px;
+         h2{
+          font:{
+            size:18px;
+            weight:bold;
+          }
+         }
+         h3{
+           font:{
+             size:16px;
+             weight:bold;
+           }
+         }
+         h3.send-time{
+           color:#999;
+         }
+       }
+     }
+  }
+}
