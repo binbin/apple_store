@@ -635,3 +635,19 @@ footer{
      }
   }
 }
+#confirm-order{
+   .adress-box{
+    border-image:url(../images/adress_border.png) 20 30 round;
+    -moz-border-image:url(../images/adress_border.png) 20 30 round; /* 老的 Firefox */
+    -webkit-border-image:url(../images/adress_border.png) 20 30 round; /* Safari 和 Chrome */
+    -o-border-image:url(../images/adress_border.png) 20 30 round; /* Opera */
+    border-width: 10px 0px;
+   }
+   .adress-box1{
+     border-image:url(../images/adress_border.png) 15 25 round;
+     -moz-border-image:url(../images/adress_border.png) 15 25 round; /* 老的 Firefox */
+     -webkit-border-image:url(../images/adress_border.png) 15 25 round; /* Safari 和 Chrome */
+     -o-border-image:url(../images/adress_border.png) 15 25 round; /* Opera */
+     border-width: 0px 10px;
+   }
+}
