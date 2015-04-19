@@ -13,6 +13,8 @@ color:#444;
 background:#f8f8f8;
 -webkit-text-size-adjust:none;
 min-width:320px;}
+
+.clearfix{clear:both;}
 /*
 header{
 	color:#fff;
@@ -233,6 +235,28 @@ header,footer{
 	  position: relative;
 	  z-index:99;
 }
+.btn{
+   background:rgb(156, 204, 101);
+   border:1px solid rgb(124, 179, 66);
+   font-size: 18px;
+   color:#fff;
+   @include border-radius(5px);
+   text-align:center;
+   padding:0;
+   margin:0;
+   width:100%;
+}
+.button-box{
+   padding:{
+     left:10px;
+     right:10px;
+     top: 2px;
+   }
+   .btn-full{
+    height:45px;
+    line-height: 45px;
+   }
+}
 footer{
   .label{
      border-bottom: 1px solid #bbbbbb;
@@ -252,34 +276,16 @@ footer{
        p.normal{
 
        }
+       p.orange{
+        color:rgb(255, 87, 34);
+       }
      }
      >div{
          height: 50px;
          line-height: 50px;
      }
   }
-  .btn{
-    background:rgb(156, 204, 101);
-    border:1px solid rgb(124, 179, 66);
-    font-size: 18px;
-    color:#fff;
-    @include border-radius(5px);
-    text-align:center;
-    padding:0;
-    margin:0;
-    width:100%;
-  }
-  .button-box{
-     padding:{
-       left:10px;
-       right:10px;
-       top: 2px;
-     }
-     .btn-full{
-      height:45px;
-      line-height: 45px;
-     }
-  }
+  
 }
 .m-flex{
   display: -moz-box;
@@ -592,7 +598,7 @@ footer{
        margin-left:120px;
        .c_right{
          float:right;
-         width:110px;
+         /*width:110px;*/
          padding:{
            right:10px;
          }
@@ -611,11 +617,12 @@ footer{
             size:24px;
             weight:bold;
           }
-          margin-top: 24px;
+          /*margin-top: 24px;*/
+          margin-top:5px;
          }
        }
        .c_left{
-         margin-right:110px;
+        /* margin-right:110px;*/
          h2{
           font:{
             size:18px;
@@ -635,19 +642,58 @@ footer{
      }
   }
 }
+.adress-box{
+ border-image:url(../images/adress_border.png) 20 30 round;
+ -moz-border-image:url(../images/adress_border.png) 20 30 round; /* 老的 Firefox */
+ -webkit-border-image:url(../images/adress_border.png) 20 30 round; /* Safari 和 Chrome */
+ -o-border-image:url(../images/adress_border.png) 20 30 round; /* Opera */
+ border-width: 10px 0px;
+}
+.adress-box1{
+  border-image:url(../images/adress_border.png) 15 25 round;
+  -moz-border-image:url(../images/adress_border.png) 15 25 round; /* 老的 Firefox */
+  -webkit-border-image:url(../images/adress_border.png) 15 25 round; /* Safari 和 Chrome */
+  -o-border-image:url(../images/adress_border.png) 15 25 round; /* Opera */
+  border-width: 0px 10px;
+}
+
+#adress-box{
+  padding:10px;
+  .left{
+    float:left;
+    width:30px;
+    a{
+      @include unstyled-link;
+      @include inline-block;
+      font-size:24px;
+      color:rgb(139, 195, 74);
+    }
+  }
+  .right{
+   margin-left:30px;
+   .s_right{
+     float:right;
+     width:100px;
+     .btn{
+       line-height:24px;
+     }
+   }
+   .s_left{
+     /*margin-right:120px;*/
+     p{
+       font:{
+         size:16px;
+       }
+       line-height:25px;
+     }
+
+   }
+  }
+}
+#cart .order-items .item {
+  margin-top: 10px;
+  border-bottom: 1px solid #bbb;
+}
 #confirm-order{
-   .adress-box{
-    border-image:url(../images/adress_border.png) 20 30 round;
-    -moz-border-image:url(../images/adress_border.png) 20 30 round; /* 老的 Firefox */
-    -webkit-border-image:url(../images/adress_border.png) 20 30 round; /* Safari 和 Chrome */
-    -o-border-image:url(../images/adress_border.png) 20 30 round; /* Opera */
-    border-width: 10px 0px;
-   }
-   .adress-box1{
-     border-image:url(../images/adress_border.png) 15 25 round;
-     -moz-border-image:url(../images/adress_border.png) 15 25 round; /* 老的 Firefox */
-     -webkit-border-image:url(../images/adress_border.png) 15 25 round; /* Safari 和 Chrome */
-     -o-border-image:url(../images/adress_border.png) 15 25 round; /* Opera */
-     border-width: 0px 10px;
-   }
+
 }
