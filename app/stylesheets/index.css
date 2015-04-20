@@ -876,3 +876,126 @@ footer .label > div {
   margin-top: 10px;
   border-bottom: 1px solid #bbb;
 }
+
+/* line 701, ../sass/index.scss */
+#self-get .choose-city {
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+/* line 708, ../sass/index.scss */
+#self-get .choose-city a, #self-get .choose-city p {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 711, ../sass/index.scss */
+#self-get .choose-city a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  font-size: 24px;
+}
+/* line 6, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+#self-get .choose-city a:active, #self-get .choose-city a:focus {
+  outline: none;
+}
+/* line 715, ../sass/index.scss */
+#self-get .choose-city p {
+  font-size: 16px;
+  padding-left: 20px;
+}
+/* line 719, ../sass/index.scss */
+#self-get .choose-city .city-box {
+  color: #888888;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #888888;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 732, ../sass/index.scss */
+#self-get .label {
+  padding-left: 12px;
+  height: 50px;
+  line-height: 50px;
+}
+/* line 736, ../sass/index.scss */
+#self-get .label a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  font-size: 24px;
+  line-height: 50px;
+}
+/* line 6, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+#self-get .label a:active, #self-get .label a:focus {
+  outline: none;
+}
+/* line 742, ../sass/index.scss */
+#self-get .label span {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  line-height: 50px;
+}
+/* line 748, ../sass/index.scss */
+#self-get .items .item {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+/* line 756, ../sass/index.scss */
+#self-get .items .item .left {
+  width: 120px;
+  float: left;
+}
+/* line 759, ../sass/index.scss */
+#self-get .items .item .left img {
+  width: 120px;
+  height: 120px;
+}
+/* line 764, ../sass/index.scss */
+#self-get .items .item .right {
+  margin-left: 120px;
+  padding-left: 10px;
+}
+/* line 767, ../sass/index.scss */
+#self-get .items .item .right .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 774, ../sass/index.scss */
+#self-get .items .item .right .center-adress-box .c-right {
+  padding-top: 10px;
+  float: right;
+  width: 30px;
+  font-size: 24px;
+}
+/* line 780, ../sass/index.scss */
+#self-get .items .item .right .center-adress-box .c_left {
+  font-size: 14px;
+  line-height: 24px;
+}
