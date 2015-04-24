@@ -999,3 +999,85 @@ footer .label > div {
   font-size: 14px;
   line-height: 24px;
 }
+
+/* line 790, ../sass/index.scss */
+#user_center .avatar-box {
+  text-align: center;
+  padding-top: 20px;
+}
+/* line 795, ../sass/index.scss */
+#user_center .avatar-box img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+/* line 800, ../sass/index.scss */
+#user_center .avatar-box p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+}
+/* line 808, ../sass/index.scss */
+#user_center .functions {
+  background: #cceda6;
+  border-top: 1px solid #7cb342;
+  border-bottom: 1px solid #7cb342;
+  height: 66px;
+}
+/* line 815, ../sass/index.scss */
+#user_center .functions a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1 1 0;
+  -moz-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  text-align: center;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+#user_center .functions a:active, #user_center .functions a:focus {
+  outline: none;
+}
+/* line 829, ../sass/index.scss */
+#user_center .functions .glyphicon {
+  display: inline-block;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+/* line 840, ../sass/index.scss */
+#user_center .functions .glyphicon {
+  color: #444444;
+}
+/* line 843, ../sass/index.scss */
+#user_center .functions .glyphicon-text {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  width: 100%;
+  margin-top: -9px;
+  min-width: 40px;
+}
+/* line 853, ../sass/index.scss */
+#user_center .functions .glyphicon {
+  vertical-align: -7px;
+}
+/* line 856, ../sass/index.scss */
+#user_center .functions .text {
+  font-size: 14px;
+  display: block;
+}
